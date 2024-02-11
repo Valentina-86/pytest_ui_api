@@ -14,12 +14,17 @@
 - requests
 - pytest
 - allure
-- config
+- configparser
+- json
 
 ## Структура:
 - ./test - тесты
 - ./pages - описание страниц
 - ./api - хэлперы для работы с API
+- ./configuration - провайдер настроек
+  - test_config.ini - настройки для тестов
+- ./testdata - провайдер тестовых данных
+  - test_data.json
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
