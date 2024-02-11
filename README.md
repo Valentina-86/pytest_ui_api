@@ -4,7 +4,7 @@
 
 ### Шаги
 1. Склонировать проект 'git clone git@github.com:Valentina-86/pytest_ui_api.git'
-2. Установить все зависимости
+2. Установить все зависимости 'pip install -r requirements.txt'
 3. Запустить тесты 'python -m pytest'
 4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
 5. Открыть отчет 'allure open allure-report'
@@ -29,6 +29,8 @@
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
 - [Генератор фала .gitignore](https://www.toptal.com/developers/gitignore)
+- [Про configparser](https://docs.python.org/3/library/configparser.html#module-configparser)
+- [Про pip freeze](https://pip.pypa.io/en/stable/cli/pip_freeze/)
 
 ### Библиотеки
 - pip install pytest
