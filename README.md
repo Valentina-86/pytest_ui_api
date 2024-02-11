@@ -5,7 +5,9 @@
 ### Шаги
 1. Склонировать проект 'git clone git@github.com:Valentina-86/pytest_ui_api.git'
 2. Установить все зависимости
-3. Запустить тесты 'pytest'
+3. Запустить тесты 'python -m pytest'
+4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
+5. Открыть отчет 'allure open allure-report'
 
 ### Стек:
 - selenium
@@ -25,3 +27,7 @@
 
 ### Библиотеки
 - pip install pytest
+- pip install selenium
+- pip install requests
+- pip install allure
+- pip install webdriver-manager
